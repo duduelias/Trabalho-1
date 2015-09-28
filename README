@@ -1,1 +1,41 @@
-# Trabalho-1
+Disciplina: SSC0300-Linguagens de Programação e Aplicações
+
+Curso: Engenharia Mecânica - EESC USP
+
+Trabalho 1
+
+Alunos:	1- Luis Eduardo Manzoli Elias	nºUSP: 9312752		github username: duduelias
+	2- Bruna P. de A. Dell'Avanzi	nºUSP: 9311556		github username: brunadellavanzi
+	3- Vítor Henrique Sprogis	nºUSP: 9311970		
+
+1. Ambiente e compilação
+	i.  Linguagem utilizada: Linguagem C.
+	ii. Ambiente de compilação: Dev-C++ 5.11.
+	iii.Compilador: TDM-GCC 4.9.2 64 bits Release.
+	iv. Arquitetura: Windows 8.1 64 bits.
+	v. Bibliotecas utilizadas: stdlib.h e stdio.h para todos os programas.
+
+2. Tutorial: compilação do código
+	A compilação é feita de maneira usual dentro do ambiente Dev-C++, dentro do menu Executar, escolher a opção Compilar. Para executar o programa, deve-se compilar o programa como descrito e após isso, dentro do menu Executar, escolher a opção Executar.
+ 	Não foi necessário parâmetro especial para a compilação.
+
+3. Tutorial de como usar os programas
+	i. Pares mais próximos (Closest Pair)
+	Função: esse programa receberá um vetor de elementos inteiros, ordenará de forma crescente esses elementos (com o método quicksort) , achará a diferença minima entre um par de elementos e imprimirá qual é essa diferença e quais pares à possuem.
+	Entrada: inicialmente deverá ser colocado o número (n) de elementos que deverão ser comparados, ou seja, o tamanho do vetor. Se for colocado um número inválido, aparecerá um aviso na tela. Depois disso, deverão ser ser colocados os n elementos (apenas números inteiros) que pertencerão ao vetor. 
+	Saída: após feito o passo acima, aparecerá na tela o valor da menor diferença entre os números do vetor e qual (ou quais) os pares que a possuem.
+
+	ii. Elemento único (Element uniqueness)
+	Função: este programa receberá elementos inteiros para um vetor, os ordenará (com o método quicksort) e imprimirá na tela quais destes elementos aparecem uma unica vez.
+	Entrada: inicialmente deverá ser colocado o número (n) de elementos que deverão ser comparados, ou seja, o tamanho do vetor. Se for colocado um número inválido, aparecerá um aviso na tela. Depois disso, deverão ser ser colocados os n elementos (apenas números inteiros) que pertencerão ao vetor. 
+	Saída: após feito o passo acima, aparecerá na tela os valores que apareceram uma única vez.
+
+	iii. Distribuição de Frequência (Frequency distribution)
+	Função:Este programa receberá um vetor de elementos inteiros, os ordenará, atribuirá a outro vetor quantas vezes cada elemento é repetido dentro do vetor e imprimirá na tela quais elementos são repetidos mais vezes e quantas vezes eles se repetem.
+	Entrada: inicialmente deverá ser colocado o número (n) de elementos que deverão ser comparados, ou seja, o tamanho do vetor. Se for colocado um número inválido, aparecerá um aviso na tela. Depois disso, deverão ser ser colocados os n elementos (apenas números inteiros) que pertencerão ao vetor. 
+	Saída: após feito o passo acima, aparecerá na tela o maior número de repetições e qual (ou quais) os elementos que se repetiram esse número de vezes.
+
+	iv. Fecho Convexo (Convex hull)
+	Função: este programa receberá 2n elementos inteiros em uma matriz Nx2. Cada par de elementos representarão, respectivamente, a abscissa e a ordenada de um plano 2D. O programa encontrará qual é o polígono de menor area formada por esses pontos, de forma que cada ponto, se não pertencer ao perímetro do polígono, estará interno à sua area. Em seguida o programa calculará a area deste polígono
+	Entrada: Inicialmente deverá ser colocado o número (n) de pontos no plano 2D que deverão ser comparados. Depois disso, deverão ser colocados os 2n elementos ( abscissa e ordenada inteiras, respectivamente ) que pertencerão à matriz representante dos pontos deste plano.
+	Saída: o programa deverá retornar a area deste polígono.
